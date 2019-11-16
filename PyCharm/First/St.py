@@ -1,0 +1,10 @@
+new_text = "Apple Bongo Chocolate Ding-dong Evil"
+print(new_text[0])
+print(new_text[-1],new_text[-9])
+print(new_text[2])
+print(new_text[-4])
+print(new_text[6:11])
+List=new_text.split(" ")
+print(List[4])
+sub_text=",".join(List)
+print(sub_text)
