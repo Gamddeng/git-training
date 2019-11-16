@@ -17,8 +17,8 @@ int main(void) {
     scanf("%d %d", &n, &target);
     for (int i = 0; i < n; i++) scanf("%d", &a[i]);
     int result  = search(0, n-1, target);
-    if (result != -9999) printf("%d ¹øÂ° ¿ø¼Ò ÀÔ´Ï´Ù.\n", result + 1);
-    else printf("ŸÁ´Âµ¥¿¹.\n");
+    if (result != -9999) printf("%d ë²ˆì§¸ ì›ì†Œ ìž…ë‹ˆë‹¤.\n", result + 1);
+    else printf("ìŽëŠ”ë°ì˜ˆ.\n");
     system("pause");
     return 0;
 }

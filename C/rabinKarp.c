@@ -14,7 +14,7 @@ void check(char* parent, char* pattern, int start) {
         }
     }
     if (found) {
-        printf("%d¿¡¼­ Ã£À½\n", start + 1);
+        printf("%dì—ì„œ ì°¾ìŒ\n", start + 1);
     }
 }
 

@@ -57,7 +57,7 @@ Student *getValue(Student **hashTable, int key)
 void show(Student **hashTable) {
     for (int i = 0; i < TABLE_SIZE; i++) {
         if (hashTable[i] != NULL) {
-            printf("Å°: [%d], ÀÌ¸§: [%s]\n", i, hashTable[i]->name);
+            printf("í‚¤: [%d], ì´ë¦„: [%s]\n", i, hashTable[i]->name);
         }
     }
 }
@@ -71,7 +71,7 @@ int main(void) {
     {
         Student* student = (Student*)malloc(sizeof(Student));
         student->id = rand() % 1000000;
-        sprintf(student->name, "»ç¶÷%d", student->id);
+        sprintf(student->name, "ì‚¬ëžŒ%d", student->id);
         if (search(hashTable, student->id) == -1) {
             int index = findEmpty(hashTable, student->id);
             add(hashTable, student, index);

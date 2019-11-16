@@ -28,9 +28,9 @@ void update(int start, int end, int node, int index, int dif) {
 
 int main(void) {
     init(0, NUMBER - 1, 1);
-    printf("0ºÎÅÍ 6±îÁöÀÇ ±¸°£ ÇÕ : %d\n", sum(0, NUMBER - 1, 1, 0, 6));
-    printf("ÀÎµ¦½º 5ÀÇ ¿ø¼Ò¸¦ +3 ¸¸Å­ ¼öÁ¤\n");
+    printf("0ë¶€í„° 6ê¹Œì§€ì˜ êµ¬ê°„ í•© : %d\n", sum(0, NUMBER - 1, 1, 0, 6));
+    printf("ì¸ë±ìŠ¤ 5ì˜ ì›ì†Œë¥¼ +3 ë§Œí¼ ìˆ˜ì •\n");
     update(0, NUMBER - 1, 1, 5, 3);
-    printf("3ºÎÅÍ 6±îÁöÀÇ ±¸°£ ÇÕ : %d\n", sum(0, NUMBER - 1, 1, 3, 6));
+    printf("3ë¶€í„° 6ê¹Œì§€ì˜ êµ¬ê°„ í•© : %d\n", sum(0, NUMBER - 1, 1, 3, 6));
     system("pause");
 }

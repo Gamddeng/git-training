@@ -23,16 +23,16 @@ int getSelection(int start, int end) {
 }
 
 int main(void) {
-    printf("¼ıÀÚ¸¦ 7°³ ÀÔ·ÂÇÏ½Ã¿À.\n");
+    printf("ìˆ«ìë¥¼ 7ê°œ ì…ë ¥í•˜ì‹œì˜¤.\n");
     for (int i = 1; i <= 7; i++){
         int value = 0;
-        printf("%d¹øÂ° °ª : ", i);
+        printf("%dë²ˆì§¸ ê°’ : ", i);
         scanf("%d", &value);
         update(i, value);
     }
-    printf("1ºÎÅÍ 7±îÁöÀÇ ±¸°£ ÇÕ : %d\n", getSelection(1, 7));
-    printf("ÀÎµ¦½º 6ÀÇ ¿ø¼Ò¸¦ +3¸¸Å­ ¼öÁ¤\n");
+    printf("1ë¶€í„° 7ê¹Œì§€ì˜ êµ¬ê°„ í•© : %d\n", getSelection(1, 7));
+    printf("ì¸ë±ìŠ¤ 6ì˜ ì›ì†Œë¥¼ +3ë§Œí¼ ìˆ˜ì •\n");
     update(6,3);
-    printf("4ºÎÅÍ 7±îÁöÀÇ ±¸°£ ÇÕ : %d\n", getSelection(4, 7));
+    printf("4ë¶€í„° 7ê¹Œì§€ì˜ êµ¬ê°„ í•© : %d\n", getSelection(4, 7));
     system("pause");
 }

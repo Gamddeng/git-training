@@ -71,7 +71,7 @@ void show(Student **hashTable) {
         if (hashTable[i] != NULL) {
             Bucket *cur = hashTable[i];
             while (cur != NULL) {
-                printf("Å°: [%d], ÀÌ¸§: [%s]\n", i, cur->data->name);
+                printf("í‚¤: [%d], ì´ë¦„: [%s]\n", i, cur->data->name);
                 cur = cur->next;
             }
         }
@@ -87,7 +87,7 @@ int main(void)
     for (int i = 0; i < INPUT_SIZE; i++) {
         Student *student = (Student *)malloc(sizeof(Student));
         student->id = rand() % 1000000;
-        sprintf(student->name, "»ç¶÷%d", student->id);
+        sprintf(student->name, "ì‚¬ëžŒ%d", student->id);
         if (!isExist(hashTable, student->id)) {
             add(hashTable, student);
         }

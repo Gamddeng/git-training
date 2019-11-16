@@ -20,7 +20,7 @@ void addFront(Node *root, int index, int distance) {
 void showAll(Node *root) {
     Node *cur = root->next;
     while (cur != NULL) {
-        printf("%d(°Å¸® : %d) ", cur->index, cur->distance);
+        printf("%d(ê±°ë¦¬ : %d) ", cur->index, cur->distance);
         cur = cur->next;
     }
     
@@ -45,7 +45,7 @@ int main(void) {
     }
     printf("test");
      for (int i = 1; i <= n; i++) {
-        printf("¿ø¼Ò [%d] : ", i);
+        printf("ì›ì†Œ [%d] : ", i);
         showAll(a[i]);
         printf("\n");  
     } */ 

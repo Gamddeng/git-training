@@ -117,7 +117,7 @@ int main(void) {
                 nextCost = now->cost; break;
             }
         }
-        if (nextCost == INT_MAX) printf("¿¬°á ±×·¡ÇÁ°¡ ¾Æ´Ô\n");
+        if (nextCost == INT_MAX) printf("ì—°ê²° ê·¸ëž˜í”„ê°€ ì•„ë‹˜\n");
         res += nextCost;
         d[nextNode] = 1;
         Node *cur = adj[nextNode];
