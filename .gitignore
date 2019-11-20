@@ -1,3 +1,9 @@
 /Python
 venv/
 .idea/
+/Project
+.vs/
+.vscode/
+.gitignore
+/Boost
+.gitignore
